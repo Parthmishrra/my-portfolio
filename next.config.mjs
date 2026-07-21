@@ -1,12 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   output: 'export',
-  reactStrictMode: true,
+  basePath: '/my-portfolio', // MUST match your exact repo name!
   images: {
     unoptimized: true,
   },
-  basePath: '/my-portfolio',
-  experimental: { optimizePackageImports: ["framer-motion"] },
 };
 
 export default nextConfig;
