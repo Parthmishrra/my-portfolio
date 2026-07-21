@@ -1,0 +1,49 @@
+
+> partha-cinematic-portfolio@1.0.0 build
+> next build
+
+  ▲ Next.js 14.2.24
+
+   Creating an optimized production build ...
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'C:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\typescript\lib\typescript.js', but to 'c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected C:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack-config.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w> [webpack.cache.PackFileCacheStrategy/webpack.FileSystemInfo] Resolving '../../../typescript/lib/typescript' in c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build for build dependencies doesn't lead to expected result 'C:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\typescript\lib\typescript.js', but to 'c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\typescript\lib\typescript.js' instead. Resolving dependencies are ignored for this path.
+<w>  at resolve commonjs file ../../../typescript/lib/typescript (expected C:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\typescript\lib\typescript.js)
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\load-jsconfig.js
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack-config.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack-config.js
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\handle-externals.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\handle-externals.js
+<w>  at file dependencies c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at file c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+<w>  at resolve commonjs c:\Users\khushboo.parit\OneDrive - InMobi\Desktop\partha-cinematic-portfolio\node_modules\next\dist\build\webpack\loaders\next-swc-loader.js
+ ✓ Compiled successfully
+   Linting and checking validity of types ...
+   Collecting page data ...
+   Generating static pages (0/4) ...
+   Generating static pages (1/4) 
+   Generating static pages (2/4) 
+   Generating static pages (3/4) 
+ ✓ Generating static pages (4/4)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                              Size     First Load JS
+┌ ○ /                                    176 kB          263 kB
+└ ○ /_not-found                          873 B          88.1 kB
++ First Load JS shared by all            87.3 kB
+  ├ chunks/117-e235b8b13fa44e9b.js       31.8 kB
+  ├ chunks/fd9d1056-1f1f859026f5f0fa.js  53.6 kB
+  └ other shared chunks (total)          1.87 kB
+
+
+○  (Static)  prerendered as static content
+
